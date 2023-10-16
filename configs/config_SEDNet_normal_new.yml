@@ -1,0 +1,66 @@
+comment=""
+
+[train]
+model_path = "SEDNet_new_{}_lr_{}_mode_{}_k{}"
+
+gpu = "4,5"
+
+# Dataset path
+dataset = ""
+
+# Whether to load a pretrained model or not
+preload_model = True
+
+
+# pre-trained model path
+pretrain_model_path = "ckpts/parsenet_final_normal_ckpt_2combine_posenc_4_lr_0.0001_mode_7_k64_InstBest.pth"
+# "trains/SEDNet_4_lr_0.0001_mode_15_k64/ckpts/SEDNet_4_lr_0.0001_mode_15_k64_InstBest.pth"
+pretrain_model_type_path = "ckpts/parsenet_final_normal_ckpt_2combine_posenc_4_lr_0.0001_mode_7_k64_InstBest.pth"
+# "trains/SEDNet_4_lr_0.0001_mode_15_k64/ckpts/SEDNet_4_lr_0.0001_mode_15_k64_InstBest.pth"
+pretrain_opti_path = ""
+
+
+# Whether to input the normals or not
+normals = True
+
+proportion = 1.0
+
+# number of training instance
+num_train=16000 
+num_val=2700
+num_test=2700
+num_points=10000  # default 10000
+loss_weight=100
+
+num_epochs = 200
+grid_size = 20
+
+
+batch_size = 8
+
+# Optimization
+optim = adamW
+
+smooth = 0.025  # ============================= BCE smooth label, default 0.2
+sche = "reduce"  # cos / reduce scheduler
+embed = 128  # default 128
+
+knn = 64  # ======================== default 64
+
+# l2 Weight decay
+weight_decay = 0.001  # default 1e-4
+
+# dropout for Decoder network
+dropout = 0.2
+
+# Learing rate
+lr = 0.0003  # 4e-4
+eval_T = 2000
+
+# Encoder dropout
+encoder_drop = 0.0   # default 0.0
+
+# Whether to schedule the learning rate or not
+lr_sch = True
+patience = 8
+mode = 15 
