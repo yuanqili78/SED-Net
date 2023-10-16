@@ -1,3 +1,6 @@
+Surface and Edge Detection for Primitive Fitting of Point Clouds
+SIGGRAPH 2023 conference proceedings
+
 ## install
 following [parsenet](https://github.com/Hippogriff/parsenet-codebase#installation) install cmds
 
@@ -25,3 +28,12 @@ python train_sed_net.py configs/config_SEDNet_normal.yml
 ## reference
 1. [parsenet](https://github.com/Hippogriff/parsenet-codebase)
 2. [hpnet](https://github.com/SimingYan/HPNet)
+
+## Cite
+@inproceedings{li2023surface,
+  title={Surface and edge detection for primitive fitting of point clouds},
+  author={Li, Yuanqi and Liu, Shun and Yang, Xinran and Guo, Jianwei and Guo, Jie and Guo, Yanwen},
+  booktitle={ACM SIGGRAPH 2023 Conference Proceedings},
+  pages={1--10},
+  year={2023}
+}
