@@ -9,7 +9,11 @@ following [parsenet](https://github.com/Hippogriff/parsenet-codebase#installatio
 
 - please download our dataset from [Baiduyun](https://pan.baidu.com/s/1apCmf8Xa_rXyRdWl4ybJpg?pwd=meta) (password is *meta*) and load all files of folder *sed_net_data* to *data* 
 - please download parsenet datasets from [Baiduyun](https://pan.baidu.com/s/16fggrr-qQRc2yu6ECQNaoA) (password is *meta*) and load all files of folder *parsenet* to *data_parsenet* 
-- you can download our pretained models from [Baiduyun](https://pan.baidu.com/s/1rMMD_0VaOGTmpMcIozjp3Q) (password is *meta*) and load all weights of folder *ckpts* to *ckpts* 
+- you can download our pretained models from [Baiduyun](https://pan.baidu.com/s/1rMMD_0VaOGTmpMcIozjp3Q) (password is *meta*) and load all weights of folder *ckpts* to *ckpts*
+
+- please download our dataset from [Onedrive](https://1drv.ms/f/s!AkbsfT9Y3igj3Hl9nmpQZsh7Vv5J?e=yOTZfe) and load all files of folder *sed_net_data* to *data* 
+- please download parsenet datasets from [Onedrive](https://1drv.ms/f/s!AkbsfT9Y3igj3Hr1YQHzC8V0rO2-?e=XfwcSe) and load all files of folder *parsenet* to *data_parsenet* 
+- you can download our pretained models from [Onedrive](https://1drv.ms/f/s!AkbsfT9Y3igj3Hjl96WnhBMTAsWP?e=Akj76R) and load all weights of folder *ckpts* to *ckpts* 
 
 
 ## train & test
