@@ -25,6 +25,9 @@ python generate_predictions_aug.py configs/config_SEDNet_normal.yml NoSave no_mu
 python train_sed_net.py configs/config_SEDNet_normal.yml
 ```
 
+## mesh creation
+arg2mesh/arg2mesh.py 
+
 ## reference
 1. [parsenet](https://github.com/Hippogriff/parsenet-codebase)
 2. [hpnet](https://github.com/SimingYan/HPNet)
