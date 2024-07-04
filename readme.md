@@ -11,6 +11,8 @@ following [parsenet](https://github.com/Hippogriff/parsenet-codebase#installatio
 - please download parsenet datasets from [Onedrive](https://1drv.ms/f/s!AkbsfT9Y3igj3Hr1YQHzC8V0rO2-?e=XfwcSe) or from [Baiduyun](https://pan.baidu.com/s/16fggrr-qQRc2yu6ECQNaoA) (password is *meta*), and load all files of folder *parsenet* to *data_parsenet* 
 - you can download our pretained models from [Onedrive](https://1drv.ms/f/s!AkbsfT9Y3igj3Hjl96WnhBMTAsWP?e=Akj76R) or from [Baiduyun](https://pan.baidu.com/s/1rMMD_0VaOGTmpMcIozjp3Q) (password is *meta*), and load all weights of folder *ckpts* to *ckpts*
 
+- you can download SplineNet dataset from [Gooogle Drive](https://drive.google.com/drive/folders/1_cn_0i0dJLul48diLeCd6XiW5QOAh2E3?usp=sharing)
+
 
 ## train & test
 - test model with normal
